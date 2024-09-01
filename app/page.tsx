@@ -1,9 +1,10 @@
 import { Analytics } from "@/components/analytics";
+import { CalendarForm } from "@/components/CalendarForm";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Analytics />
+    <main className="p-40">
+      <CalendarForm />
     </main>
   );
 }
