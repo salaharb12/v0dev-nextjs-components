@@ -55,6 +55,7 @@ export function InputOTPForm() {
           render={({ field }) => (
             <FormItem>
               <FormLabel>One-Time Password</FormLabel>
+              {/*i think is better to use map here !!*/}
               <FormControl>
                 <InputOTP maxLength={6} {...field}>
                   <InputOTPGroup>
